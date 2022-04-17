@@ -7,6 +7,9 @@ def maclaurin(n):
     x = 0.3*m.pi
     return ((-1)**n)*((x**(2*n + 1)) / m.factorial(2*n + 1))
 
+def hello():
+    print('Hello World')
+
 for i in range(0,9) :
     total = total + maclaurin(i)
 
